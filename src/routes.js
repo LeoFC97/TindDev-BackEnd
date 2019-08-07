@@ -1,12 +1,13 @@
-const express = require(`express`)
+const express = require('express')
 const routes = express.Router()
 
-routes.get(`/`,(req,res) => {
-    return res.send(`hello ${req.query.name}`)
+routes.get('/',(req,res) => {
+    console.log('sdsads')
+    return res.json({message: `Ola ${req.query.name}`})
 })
 
-routes.get(`/devs`,(req,res) => {
-    return res.json(`ok`: `true`))
+routes.post('/devs',(req,res) => {
+    return res.json({ok:true})
 })
 
-module.exports = routes
+module.exports =routes

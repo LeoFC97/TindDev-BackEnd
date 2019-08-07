@@ -1,9 +1,9 @@
-const express = require(`express`)
-const routes = require(`./routes`)
+const express = require('express')
+const routes = require('./routes')
 const server = express();
 
 
-router.use(routes)
+server.use(routes)
 
 
 server.listen(3333)
