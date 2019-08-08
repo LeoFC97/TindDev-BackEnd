@@ -1,0 +1,17 @@
+{
+  "name": "TindDev-BackEnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeoFC97/TinderDev.git",
+  "author": "<leonardo.fc2@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts":{
+    "dev":"nodemon src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
